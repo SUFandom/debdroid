@@ -17,7 +17,7 @@ Installing debdroid is quite easy, copy this one line code
 chmod +x *.sh ; ./bootstrap.sh
 ```
 
-After that, clone this work : `https://github.com/SUFandom/debdroid-starter`
+After that, clone this work
 
 But if theres bugs, head to [issues](http://github.com/SUFandom/debdroid/issues) page
 
