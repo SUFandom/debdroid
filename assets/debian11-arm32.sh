@@ -4,10 +4,10 @@
 DISTRO_NAME="Debian ARMv7"
 DISTRO_COMMENT="32 Bit version of Modified Debian Stable (works with ARM64 too)"
 
-TARBALL_URL['aarch64']="https://github.com/SUFandom/debdroid/releases/download/d-1.4.1/debian-arm32.tar.xz"
-TARBALL_SHA256['aarch64']="dddf503a5781906830f623c802d1a1b02a6c90e0b4a658878e7cbd12184dd09f"
-TARBALL_URL['arm']="https://github.com/SUFandom/debdroid/releases/download/d-1.4.1/debian-arm32.tar.xz"
-TARBALL_SHA256['arm']="dddf503a5781906830f623c802d1a1b02a6c90e0b4a658878e7cbd12184dd09f"
+TARBALL_URL['aarch64']="https://github.com/SUFandom/debdroid/releases/download/d-1.4.2/debian-arm32.tar.xz"
+TARBALL_SHA256['aarch64']="af40cb429968fc986bde4d15c2cb9d5fa983176f0b4ccd8bcca40d96b82fa691"
+TARBALL_URL['arm']="https://github.com/SUFandom/debdroid/releases/download/d-1.4.2/debian-arm32.tar.xz"
+TARBALL_SHA256['arm']="af40cb429968fc986bde4d15c2cb9d5fa983176f0b4ccd8bcca40d96b82fa691"
 
 
 distro_setup () {
