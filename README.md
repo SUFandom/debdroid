@@ -7,7 +7,7 @@ OS : ![logo](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo
 
 For: ![icoandroid](https://img.shields.io/badge/Android__Termux-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
-![st](https://img.shields.io/badge/status-prerel-red?style=for-the-badge)
+![st](https://img.shields.io/badge/status-stable-green?style=for-the-badge)
 
 ## Question
 
