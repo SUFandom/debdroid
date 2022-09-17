@@ -28,7 +28,7 @@ Yes, but you have to input `dpkg add-architecture arm64` to continue and install
 Installing debdroid is quite easy, copy this one line code
 
 ```
-git clone https://github.com/SUFandom/debdroid && chmod +x *.sh && ./bootstrap.sh
+git clone https://github.com/SUFandom/debdroid && cd debdroid && chmod +x *.sh && ./bootstrap.sh
 ```
 
 After that, clone this [work](https://github.com/SUFandom/debdroid-starter). Although it will be prob. Pre-installed on Net. Heh..
