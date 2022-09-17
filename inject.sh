@@ -2,6 +2,7 @@
 
 if [ "$1" == "-arm32"  ]
 then
+rm -rf $PREFIX/var/lib/proot-distro/dlcache/*
 cp -r assets/debian11-arm32.sh $PREFIX/etc/proot-distro
 proot-distro install debian11-arm32
 proot-distro login debian11-arm32 --/usr/bin/apt update
