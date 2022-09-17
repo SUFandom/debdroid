@@ -5,6 +5,7 @@ case $ans in
  [Yy]*)
  echo "Removing Filesystem"
  rm -rf $PREFIX/var/lib/proot-distro/installed-rootfs/debian11-arm32
+rm -rf $PREFIX/var/lib/proot-distro/dlcache/*
  echo "Done" 
  break ;;
  [Nn]*)
