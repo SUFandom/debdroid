@@ -17,7 +17,7 @@ Yes. This Distro is using armhf `(armv7a)` type and the 32 bit component is stil
 
 - Is this distro still just a Debian but just modified?
 
-Yes, to make sure like VSCode and other packages can work
+Yes sort-of (it needs debdroid-starter to be called 'modified Debian'), to make sure like VSCode and other packages can work
 
 - Can i add 64 bit ARM packages in this distro?
 
