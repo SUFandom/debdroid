@@ -12,6 +12,6 @@ TARBALL_SHA256['arm']="61396c92f1c218c8b482780f737a149478c168a8f26d22d2173dbf542
 
 distro_setup () {
 # Don't update gvfs-daemons and udisks2
-        run_proot_cmd apt-mark hold
-        gvfs-daemons udisks2
+        run_proot_cmd apt-mark hold gvfs-daemons udisks2
+        run_proot_cmd apt-mark hold tracker-miner-fs
 }
