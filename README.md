@@ -9,6 +9,20 @@ For: ![icoandroid](https://img.shields.io/badge/Android__Termux-3DDC84?style=for
 
 ![st](https://img.shields.io/badge/status-unknown-red?style=for-the-badge)
 
+## Question
+
+- My Device is just 64 bit ARM `(armv8a/Aarch64)`, is this distro still supported?
+
+Yes. This Distro is using armhf `(armv7a)` type and the 32 bit component is still exists in modern 64 bit cpu, maybe in 2028 (just guessing) it will be the end of life of 32 bit as its y2k32 (correct me on this) will cause 32 bit integers to not function properly.
+
+- Is this distro still just a Debian but just modified?
+
+Yes, to make sure like VSCode and other packages can work
+
+- Can i add 64 bit ARM packages in this distro?
+
+Yes, but you have to input `dpkg add-architecture arm64` to continue and install 64 bit apps, **REMINDER THAT THIS WILL ONLY WORK IF YOU REALLY HAVE 64 BIT CPU!!!**
+
 ## Features & Instruction 
 
 Installing debdroid is quite easy, copy this one line code
